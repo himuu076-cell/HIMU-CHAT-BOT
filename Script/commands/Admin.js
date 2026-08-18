@@ -23,21 +23,21 @@ module.exports.run = async function({ api, event }) {
 │ 𝗢𝗪𝗡𝗘𝗥 𝗗𝗘𝗧𝗔𝗜𝗟𝗦
 ├───────────────
 │👤 𝐍𝐚𝐦𝐞 : MURSALIN HIMU
-│🚹 𝐆𝐞𝐧𝐝𝐞𝐫 : Maile
+│🚹 𝐆𝐞𝐧𝐝𝐞𝐫 : Male
 │❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧 : Single
-│🎂 𝐀𝐠𝐞 : 18+
+│🎂 𝐀𝐠𝐞 : 21+
 │🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : Islam
-│🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : HSC (2026)
-│🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : Khagrachori 
+│🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 :
+│🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : DHAKA
 └───────────────⭓
 
 ┌───────────────⭓
 │ 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ├───────────────
 │📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
-│https://fb.com/Uhasbbz
+│https://fb.com/mursalinmahmud
 │💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-│https://wa.me/01882333052
+│https://wa.me/01329288340
 └───────────────⭓
 
 ┌───────────────⭓
@@ -49,7 +49,7 @@ module.exports.run = async function({ api, event }) {
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
  }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
 
- return request("https://i.imgur.com/g3hlQ0Z.jpeg") //এখানে আপনার ছবির Imgur link বসাবেন✅
+ return request("https://www.image2url.com/r2/default/images/1787054487293-c1c69593-76b4-4bb3-b705-b401d7667d36.jpg") //এখানে আপনার ছবির Imgur link বসাবেন✅
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
