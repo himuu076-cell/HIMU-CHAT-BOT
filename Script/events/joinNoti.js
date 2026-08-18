@@ -61,7 +61,7 @@ ${botPrefix}Admin
 ➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: https://wa.me/8801882333052
 
 ❖⋆═══════════════════════⋆❖
-          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔`;
+          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ Mursalin himu`;
 
       if (selected) {
         api.sendMessage({ body: messageBody, attachment: selected }, threadID);
