@@ -47,12 +47,12 @@
   },
 
   "AntiAbuse": {
-    "blockSpam": true,
-    "spamThreshold": 5,
-    "autoBanSpam": true,
-    "protectAdmin": true,
-    "protectBot": true,
-    "notifyAdminOnAbuse": true
+    "blockSpam": false,
+    "spamThreshold": false,
+    "autoBanSpam": false,
+    "protectAdmin": false,
+    "protectBot": false,
+    "notifyAdminOnAbuse": false
   },
 
   "FCAOption": {
