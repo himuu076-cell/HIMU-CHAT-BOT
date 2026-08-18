@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "toilet",
   version: "1.0.0",
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Generate a couple banner image using sender and target Facebook UID via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,

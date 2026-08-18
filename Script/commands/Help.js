@@ -6,7 +6,7 @@ module.exports.config = {
     name: "help",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "MURSALIN HIMU",
     description: "Shows all commands with details",
     commandCategory: "system",
     usages: "[command name/page number]",
@@ -80,7 +80,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "himu chat bot"  
     );  
 
     downloadImages(files => {  
@@ -110,7 +110,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+            global.config.BOTNAME || "himu chat bot"  
         );  
 
         downloadImages(files => {  
@@ -143,7 +143,7 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "himu chat bot"}
 ┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
 ╰━━━━━━━━━━━━━━━━╯`;
 

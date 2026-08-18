@@ -2,7 +2,7 @@ module.exports.config = {
   name: "font",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Convert text into fonts",
   commandCategory: "Others",
   usages: "<1-10> <text>",

@@ -2,7 +2,7 @@ module.exports.config = {
     name: "daily",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "MURSALIN HIMU",
     description: "Claim daily coins with cooldown",
     commandCategory: "economy",
     cooldowns: 5,

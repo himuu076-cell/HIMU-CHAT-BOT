@@ -6,7 +6,7 @@ module.exports.config = {
   name: "pair",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU", //don't change chadit✅
+  credits: "MURSALIN HIMU", //don't change chadit✅
   description: "Generate a couple banner image using sender and random group member via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,

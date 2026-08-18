@@ -6,7 +6,7 @@ module.exports.config = {
   name: "married",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Generate a couple banner image using sender and target Facebook UID via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,

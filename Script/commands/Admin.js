@@ -7,7 +7,7 @@ module.exports.config = {
  name: "admin",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "SHAHADAT SAHU",
+ credits: "MURSALIN HIMU",
  description: "Show Owner Info",
  commandCategory: "info",
  usages: "admin",
@@ -22,7 +22,7 @@ module.exports.run = async function({ api, event }) {
 ┌───────────────⭓
 │ 𝗢𝗪𝗡𝗘𝗥 𝗗𝗘𝗧𝗔𝗜𝗟𝗦
 ├───────────────
-│👤 𝐍𝐚𝐦𝐞 : SHAHADAT SAHU
+│👤 𝐍𝐚𝐦𝐞 : MURSALIN HIMU
 │🚹 𝐆𝐞𝐧𝐝𝐞𝐫 : Maile
 │❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧 : Single
 │🎂 𝐀𝐠𝐞 : 18+

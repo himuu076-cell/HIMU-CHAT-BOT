@@ -2,7 +2,7 @@ module.exports.config = {
   name: "anemi",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Random Anime Videos From SAHU API",
   commandCategory: "video",
   usages: "anemi",

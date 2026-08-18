@@ -2,7 +2,7 @@ module.exports.config = {
   name: "4k",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU" //Credit Change Korben na✅
+  credits: "MURSALIN HIMU" //Credit Change Korben na✅
   description: "Enhance any image to 4K",
   commandCategory: "image",
   usages: "[imageUrl]",

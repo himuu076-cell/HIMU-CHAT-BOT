@@ -2,7 +2,7 @@ module.exports.config = {
  name: "birthday",
  version: "1.0.0",
  hasPermssion: 2,
- credits: "SHAHADAT SAHU",
+ credits: "MURSALIN HIMU",
  description: "মেনশন করলে শুভেচ্ছা জানাবে",
  commandCategory: "group",
  usages: "[@মেনশন]",
@@ -28,7 +28,7 @@ module.exports.run = async function ({ api, event, args }) {
  };
 
  
- sendMessage(`বস সাহু'র পক্ষ থেকে তোমাকে জন্মদিনের শুভেচ্ছা, @${name}!\n🎉HAPPY BIRTHDAY🎉`);
+ sendMessage(`বস হিমু'র পক্ষ থেকে তোমাকে জন্মদিনের শুভেচ্ছা, @${name}!\n🎉HAPPY BIRTHDAY🎉`);
  const messages = [
  { delay: 3000, msg: `আরো একটি বছর করলে তুমি পার। সুস্থ থাকো, ভালো থাকো এই কামনাই করি বার বার!\n🥰শুভ জন্মদিন🥰 @${name}` },
  { delay: 6000, msg: `আনন্দ উল্লাসে কাটে যেন তোমার প্রতিটি দিন, শুভেচ্ছা জানাই আজ তোমায়!\n🥰শুভ জন্মদিন😍 @${name}` },

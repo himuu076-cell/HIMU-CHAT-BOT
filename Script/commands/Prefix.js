@@ -2,7 +2,7 @@ module.exports.config = {
   name: "prefix",
   version: "1.0.0", 
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Display the bot's prefix and owner info",
   commandCategory: "Information",
   usages: "",
@@ -36,7 +36,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 『 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 』
 
 ➤ 𝗕𝗼𝘁 𝗽𝗿𝗲𝗳𝗶𝘅 : [ ${prefix} ]
-➤ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲   : ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐓
+➤ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲   : ─꯭─⃝‌‌Himu 𝐂𝐡𝐚𝐭 𝐁𝐨𝐓
 ➤ 𝗕𝗼𝘁 𝗔𝗱𝗺𝗶𝗻 : 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓
 
 『 𝐁𝐎𝐗 𝐈𝐍𝐅𝐎 』

@@ -6,7 +6,7 @@ module.exports.config = {
   name: "chor",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Scooby-doo meme using Avatar Canvas API",
   commandCategory: "fun",
   usePrefix: true,

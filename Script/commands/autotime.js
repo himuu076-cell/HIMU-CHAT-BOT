@@ -6,7 +6,7 @@ module.exports.config = {
     name: 'autosent',
     version: '1.0.0',
     hasPermssion: 0,
-    credits: 'SHAHADAT SAHU',
+    credits: 'MURSALIN HIMU',
     description: 'Automatically sends messages at scheduled times (BD Time)',
     commandCategory: 'group messenger',
     usages: '[]',
@@ -34,10 +34,10 @@ const messages = [
     { time: '5:00 PM', message: 'এখন সময় বিকেল 5:00 PM ⏳\nপরিস্থিতি যেমনি হোক না কেন, সব সময় হলে হাসতেই হবে! 😅🕒🙂', special: null },
     { time: '6:00 PM', message: 'এখন সময় সন্ধ্যা 6:00 PM ⏳\nGood Evening Everyone! সবাই হাত মুখ ধুয়ে নাও! 🌆👐💦', special: null },
     { time: '7:00 PM', message: 'এখন সময় সন্ধ্যা 7:00 PM ⏳\nকিরে ভন্ড, তুই আজ পড়তে বসছিলি নাকি?😏📚🤔', special: null },
-    { time: '8:00 PM', message: 'এখন সময় রাত 8:00 PM ⏳\nওই ওই, এতো bot bot না করে আমার বস সাহু কে একটা গফ দে...!🫰😎🔥', special: null },
+    { time: '8:00 PM', message: 'এখন সময় রাত 8:00 PM ⏳\nওই ওই, এতো bot bot না করে আমার বস হিমু কে একটা গফ দে...!🫰😎🔥', special: null },
     { time: '9:00 PM', message: 'এখন সময় রাত 9:00 PM ⏳\nআমার cute bby টাহ খানা খাইছে...!😘🍽️❤️', special: null },
     { time: '10:00 PM', message: 'এখন সময় রাত 10:00 PM ⏳\nকিরে ভন্ড, খাইবি কখন? সারাদিন মোবাইল টিপস..!😜📱😾', special: null },
-    { time: '11:00 PM', message: 'এখন সময় রাত 11:00 PM ⏳\nযে ছেড়ে গেছে 😔 তাকে ভুলে যাও 🙂 আমার বস সাহু এর সাথে প্রেম করে তাকে দেখিয়ে দাও...!🙈🐸🤗', special: null }
+    { time: '11:00 PM', message: 'এখন সময় রাত 11:00 PM ⏳\nযে ছেড়ে গেছে 😔 তাকে ভুলে যাও 🙂 আমার বস হিমু এর সাথে প্রেম করে তাকে দেখিয়ে দাও...!🙈🐸🤗', special: null }
 ];
 
 module.exports.onLoad = ({ api }) => {

@@ -2,7 +2,7 @@ module.exports.config = {
     name: "ckbot",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "MURSALIN HIMU",
     description: "DESCRIPTION ABOUT BOT",
     commandCategory: "Media",
     usages: "",

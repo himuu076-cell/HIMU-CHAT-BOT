@@ -6,7 +6,7 @@ module.exports.config = {
  name: "girl pp",
  version: "1.0.2",
  hasPermssion: 0,
- credits: "SHAHADAT SAHU",
+ credits: "MURSALIN HIMU",
  description: "Random Facebook Islamic Girl Profile Picture",
  commandCategory: "Random-IMG",
  usages: "girl pp",

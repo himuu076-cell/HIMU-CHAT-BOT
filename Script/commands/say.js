@@ -2,7 +2,7 @@ module.exports.config = {
   name: 'say',
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Make the bot return google's audio file via text",
   commandCategory: "Media",
   usages: "[bn] [Text]",

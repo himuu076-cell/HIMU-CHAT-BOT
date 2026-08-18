@@ -6,7 +6,7 @@ module.exports.config = {
   name: "crush",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU", //don't change Credit😃
+  credits: "MURSALIN HIMU", //don't change Credit😃
   description: "Generate a couple banner image using sender and target Facebook UID via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,

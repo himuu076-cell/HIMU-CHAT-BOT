@@ -5,7 +5,7 @@ module.exports.config = {
  name: "boy pp",
  version: "1.0.1",
  hasPermssion: 0,
- credits: "SHAHADAT SAHU",
+ credits: "MURSALIN HIMU",
  description: "Send a random Facebook boy profile picture",
  commandCategory: "Random-IMG",
  usages: "boy pp",

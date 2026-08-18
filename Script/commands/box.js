@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "group",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "SHAHADAT SAHU",
+	credits: "MURSALIN HIMU",
     description: "Parent group settingst.",
 	commandCategory: "box",
 	usages: "[name/emoji/admin/image/info]",

@@ -2,7 +2,7 @@ module.exports.config = {
     name: "hack",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "MURSALIN HIMU",
     description: "This is a comb for brushing only.",
     commandCategory: "Fun",
     usages: "tag or reply",

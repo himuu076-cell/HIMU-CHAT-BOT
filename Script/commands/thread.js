@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "thread",  
 	version: "2.0.0",  
 	hasPermssion: 2,  
-	credits: "SHAHADAT SAHU",  
+	credits: "MURSALIN HIMU",  
 	description: "Ban or unban a group",  
 	commandCategory: "system",  
 	usages: "[unban/ban/search] [ID or text]",  

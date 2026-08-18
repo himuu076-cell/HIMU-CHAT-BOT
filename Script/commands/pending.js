@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "pending",
   version: "1.0.0",
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   hasPermssion: 2,
   description: "Manage bot's pending group requests",
   commandCategory: "system",
@@ -12,7 +12,7 @@ module.exports.languages = {
   "en": {
     "invaildNumber": "❌ %1 is not a valid number",
     "cancelSuccess": "✅ Successfully rejected %1 group(s)!",
-    "notiBox1": "চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭 এঁখঁনঁ তোঁমাঁদেঁরঁ সাঁথেঁ আঁড্ডাঁ দিঁবঁ..!😘",
+    "notiBox1": "চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ himu chat bot এঁখঁনঁ তোঁমাঁদেঁরঁ সাঁথেঁ আঁড্ডাঁ দিঁবঁ..!😘",
     "notiBox2": `╭•┄┅═══❁🌺❁═══┅┄•╮
      আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ
 ╰•┄┅═══❁🌺❁═══┅┄•╯

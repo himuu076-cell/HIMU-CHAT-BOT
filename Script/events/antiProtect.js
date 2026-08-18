@@ -4,7 +4,7 @@ const axios = require("axios");
 module.exports.config = {
   name: "antiProtect",
   version: "1.0.0",
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Protect group name and photo",
   eventType: ["log:thread-name", "log:thread-icon"],
   cooldowns: 3

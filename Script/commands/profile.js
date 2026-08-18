@@ -2,7 +2,7 @@ module.exports.config = {
  name: "profile",
  version: "1.0.2",
  hasPermssion: 0,
- credits: "SHAHADAT SAHU",
+ credits: "MURSALIN HIMU",
  description: "Get Facebook UID and profile links",
  commandCategory: "utility",
  cooldowns: 5

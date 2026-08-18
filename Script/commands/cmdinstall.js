@@ -7,7 +7,7 @@ module.exports.config = {
   name: "install",
   version: "2.0.0",
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Create/Delete/Load modules",
   commandCategory: "System",
   usages: "[file.js code/link] / [del file.js]",

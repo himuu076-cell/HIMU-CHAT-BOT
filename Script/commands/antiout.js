@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "antiout",
     version: "1.0.0",
-    credits: "SHAHADAT SAHU",
+    credits: "MURSALIN HIMU",
     hasPermssion: 1,
     description: "Turn off antiout",
     usages: "antiout on/off",

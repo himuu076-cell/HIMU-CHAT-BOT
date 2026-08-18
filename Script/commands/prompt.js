@@ -4,7 +4,7 @@ module.exports.config = {
   name: "prompt",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Generate precise prompt from replied image",
   commandCategory: "AI",
   usages: "[reply image] [language]",

@@ -2,7 +2,7 @@ module.exports.config = {
  name: "file",
  version: "1.0.0",
  hasPermssion: 2,
- credits: "SHAHADAT SAHU",
+ credits: "MURSALIN HIMU",
  description: "List & delete command files",
  commandCategory: "Admin",
  usages: "file | file all | file <name>",

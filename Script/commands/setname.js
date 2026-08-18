@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "setname",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "SHAHADAT SAHU",
+	credits: "MURSALIN HIMU",
 	description: "Change the nickname in your group or the person you tag",
 	commandCategory: "Box Chat",
 	usages: "[name]",

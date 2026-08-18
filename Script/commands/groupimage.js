@@ -4,7 +4,7 @@ module.exports.config = {
 	name: "groupimg",
 	version: "1.0.0", 
 	hasPermssion: 0,
-	credits: "SHAHADAT SAHU",
+	credits: "MURSALIN HIMU",
 	description: "Change your group image",
 	commandCategory: "Box", 
 	usages: "groupimage", 

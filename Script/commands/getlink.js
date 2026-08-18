@@ -2,7 +2,7 @@ module.exports.config = {
   name: "getlink",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Get direct download link from replied media",
   commandCategory: "Media",
   usages: "reply to media",

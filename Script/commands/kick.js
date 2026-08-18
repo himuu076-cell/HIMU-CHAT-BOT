@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "kick",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	credits: "SHAHADAT SAHU",
+	credits: "MURSALIN HIMU",
  description: "the person you need to remove from the group by tag",
 	commandCategory: "System", 
 	usages: "[tag]", 

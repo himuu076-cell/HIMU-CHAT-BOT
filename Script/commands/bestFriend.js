@@ -6,7 +6,7 @@ module.exports.config = {
   name: "bestfriend",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU", //please don't change credit
+  credits: "MURSALIN HIMU", //please don't change credit
   description: "Generate a best friend banner image using sender and target Facebook UID via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,

@@ -23,7 +23,7 @@
 
   <!-- Developed By -->
   <span style="font-size: 22px; font-weight: 700; color:#FF8A00;">
-    Developed By SHAHADAT SAHU
+    Developed By MURSALIN HIMU
   </span>
 
 </p>
@@ -120,7 +120,7 @@ Click the image above to watch the step-by-step tutorial on YouTube.
 **Start Command**  
    Navigate to the folder where your bot files are located:
    ```bash
-   node Sahu.js
+   node Himu .js
 ```
 
 
@@ -202,7 +202,7 @@ Please do not disturb the admin unless you have a special need. Thank you!
 
 __________
 
-💖 **Thank You For Choosing 𝗦𝗵𝗮𝗵𝗮𝗱𝗮𝘁 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁!**  
+💖 **Thank You For Choosing Himu chat bot!**  
 🗓️ *Release Date:* `11/08/2025 at 02:00`  
 ⭐ **Please don't forget to give a star after forking! It really helps!**
 

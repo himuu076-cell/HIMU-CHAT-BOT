@@ -4,7 +4,7 @@ module.exports.config = {
   name: "caption",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "random caption",
   commandCategory: "caption",
   usages: "caption",

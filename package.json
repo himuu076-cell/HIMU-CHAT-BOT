@@ -1,14 +1,14 @@
 {
   "name": "shahadat-chat-bot",
   "version": "2.0.1",
-  "description": "Made By SHAHADAT SAHU",
+  "description": "Made By MURSALIN HIMU",
   "main": "Main.js",
   "engines": {
     "node": "22.x",
     "npm": ">=10.0.0 <13.0.0"
   },
   "scripts": {
-    "start": "node Sahu.js",
+    "start": "node Himu .js",
     "login": "node login",
     "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
   },
@@ -24,10 +24,10 @@
     "javascript",
     "shadat",
     "ullash",
-    "shahadat sahu",
+    "MURSALIN HIMU",
     "shahadat chat bot"
   ],
-  "author": "SHAHADAT SAHU",
+  "author": "MURSALIN HIMU",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/issues"

@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "age",
     version: "1.0.1",
-    author: "SHAHADAT SAHU",
+    author: "MURSALIN HIMU",
     hasPermission: 0,
     commandCategory: "utility",
     cooldowns: 5,
@@ -93,7 +93,7 @@ module.exports = {
 ┃❖ ${totalDays} Days
 ┃❖ ${totalHours} Hours
 ┣━━━━━━━━━━━━━━━━❂
-┃  𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆: ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭
+┃  𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆: ─꯭─⃝‌‌himu chat bot
 ┗━━━━━━━━━━━━━━━━❂`,
         attachment: fs.createReadStream(avatarPath)
       };

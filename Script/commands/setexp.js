@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "setexp",
 	version: "0.0.1",
 	hasPermssion: 2,
-	credits: "SHAHADAT SAHU",
+	credits: "MURSALIN HIMU",
 	description: "change the expien of yourself or the person being tagged",
 	commandCategory: "system",
 	usages: "setexp [Tag]",
@@ -12,7 +12,7 @@ module.exports.config = {
 			key: 'Tag',
 			prompt: 'Leave blank or tag someone, you can tag more than one person',
 			type: 'Document',
-			example: '@Sahu'
+			example: '@Himu '
 		}
 	]
 };

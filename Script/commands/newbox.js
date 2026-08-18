@@ -2,7 +2,7 @@ module.exports.config = {
   name: "newbox",
   version: "1.0.0",
   hasPermssion: 1,
-  credits: "SHAHADAT SAHU",
+  credits: "MURSALIN HIMU",
   description: "Create a new chat group with mentioned users",
   commandCategory: "Group",
   usages: "newbox @tag | Group Name",
