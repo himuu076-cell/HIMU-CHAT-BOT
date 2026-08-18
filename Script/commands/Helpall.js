@@ -30,17 +30,17 @@ module.exports.run = async function ({ api, event }) {
 ${allCommands.map(cmd => `║ ➔ ${cmd}`).join("\n")}
 ╠═════🔰 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 🔰═════╣
 ║ 🤖 𝐁𝐨𝐭: ─꯭─⃝‌‌himu chat bot
-║ 👑 𝐎𝐰𝐧𝐞𝐫: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+║ 👑 𝐎𝐰𝐧𝐞𝐫: MURSALIN HIMU
 ║ 📦 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬: ${allCommands.length} 
 ╚═══════════════════════╝`;
 
  // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
  
  const backgrounds = [
-    "https://i.imgur.com/gokzyKd.jpeg",
-    "https://i.imgur.com/g3hlQ0Z.jpeg",
-    "https://i.imgur.com/L7txp4M.jpeg",
-    "https://i.imgur.com/5dG8PS5.jpeg"
+    "",
+    "",
+    "",
+    ""
  ];
  const selectedBg = backgrounds[Math.floor(Math.random() * backgrounds.length)];
  const imgPath = __dirname + "/cache/helpallbg.jpg";
