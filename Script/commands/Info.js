@@ -1,84 +1,96 @@
 module.exports.config = {
- name: "info",
- version: "1.0.0",
- hasPermssion: 0,
- credits: "MURSALIN HIMU",
- description: "Bot information command",
- commandCategory: "For users",
- hide: true,
- usages: "",
- cooldowns: 5,
+  name: "info",
+  version: "1.0.0",
+  hasPermission: 0,
+  credits: "MURSALIN HIMU",
+  description: "Bot information command",
+  commandCategory: "For users",
+  hide: true,
+  usages: "",
+  cooldowns: 5
 };
 
 module.exports.run = async function ({ api, event, args, Users, Threads }) {
- const { threadID } = event;
- const request = global.nodemodule["request"];
- const fs = global.nodemodule["fs-extra"];
- const moment = require("moment-timezone");
+  const { threadID } = event;
+  const request = global.nodemodule["request"];
+  const fs = global.nodemodule["fs-extra"];
+  const moment = require("moment-timezone");
 
- const { configPath } = global.client;
- delete require.cache[require.resolve(configPath)];
- const config = require(configPath);
+  const { configPath } = global.client;
+  delete require.cache[require.resolve(configPath)];
+  const config = require(configPath);
 
- const { commands } = global.client;
- const threadSetting = (await Threads.getData(String(threadID))).data || {};
- const prefix = threadSetting.hasOwnProperty("PREFIX") ? threadSetting.PREFIX : config.PREFIX;
+  const { commands } = global.client;
+  const threadSetting = (await Threads.getData(String(threadID))).data || {};
+  const prefix = threadSetting.hasOwnProperty("PREFIX") ? threadSetting.PREFIX : config.PREFIX;
 
- const uptime = process.uptime();
- const hours = Math.floor(uptime / 3600);
- const minutes = Math.floor((uptime % 3600) / 60);
- const seconds = Math.floor(uptime % 60);
+  const uptime = process.uptime();
+  const hours = Math.floor(uptime / 3600);
+  const minutes = Math.floor((uptime % 3600) / 60);
+  const seconds = Math.floor(uptime % 60);
 
- const totalUsers = global.data.allUserID.length;
- const totalThreads = global.data.allThreadID.length;
+  const totalUsers = global.data.allUserID.length;
+  const totalThreads = global.data.allThreadID.length;
 
- const msg = `╭⭓ ⪩ 𝐁𝐎𝐓𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ⪨
+  const msg = `╭───  ❖  BOT INFORMATION  ❖ ───╮
 │
-├─ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ─꯭─⃝‌‌himu chat bot
-├─ ☢️ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${config.PREFIX}
-├─ ♻️ 𝗣𝗿𝗲𝗳𝗶𝘅 𝗕𝗼𝘅 : ${prefix}
-├─ 🔶 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 : ${commands.size}
-├─ 🔰 𝗣𝗶𝗻𝗴 : ${Date.now() - event.timestamp}ms
+├──  🤖  Name : Himu chat bot
+├── 📍 Prefix : ${config.PREFIX}
+├── 📌 Prefix Box : ${prefix}
+├── 🧩 Modules : ${commands.size}
+├── ⚡ Ping : ${Date.now() - event.timestamp}ms
 │
-╰───────⭓
+╰──────────────────────────╯
 
-╭⭓ ⪩ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ⪨
+╭─── ❖ OWNER INFO ❖ ───╮
 │
-├─ 👑 𝗡𝗮𝗺𝗲 : MURSALIN HIMU
-├─ 📲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
+├── 👑 Name : MURSALIN HIMU
+├── 📬 Facebook : 
 │ facebook.com/61577305903781
-├─ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
+├── 💬 WhatsApp : 
 │ 01329288340
 │
-╰───────⭓
+╰──────────────────────────╯
 
-╭⭓ ⪩ 𝗔𝗖𝗧𝗜𝗩𝗜𝗧𝗜𝗘𝗦 ⪨
+╭─── ❖ ACTIVITIES ❖ ───╮
 │
-├─ ⏳ 𝗔𝗰𝘁𝗶𝘃𝗲 𝗧𝗶𝗺𝗲 : ${hours}h ${minutes}m ${seconds}s
-├─ 📣 𝗚𝗿𝗼𝘂𝗽𝘀 : ${totalThreads}
-├─ 🧿 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿𝘀 : ${totalUsers}
-╰───────⭓
+├── ⏰ Active Time : ${hours}h ${minutes}m ${seconds}s
+├── 👨‍👩‍👧‍👦 Groups : ${totalThreads}
+├── 👤 Total Users : ${totalUsers}
+╰──────────────────────────╯
 
-❤️ 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 🌺
- 😍─꯭─⃝‌‌himu chat bot😘`;
- 
-// 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
+❤️ Thanks for using 🌺
+😍 Himu chat bot 😍`;
 
- const imgLinks = [
-    "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg",
-    "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg",
+  const imgLinks = [
     "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg",
     "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg"
- ];
+  ];
 
- const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
+  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
+  const downloadPath = __dirname + "/cache/info.jpg";
 
- const callback = () => {
- api.sendMessage({
- body: msg,
- attachment: fs.createReadStream(__dirname + "/cache/info.jpg")
- }, threadID, () => fs.unlinkSync(__dirname + "/cache/info.jpg"));
- };
+  // নিশ্চিত করা যে cache ফোল্ডারটি আছে
+  if (!fs.existsSync(__dirname + "/cache")) {
+    fs.mkdirSync(__dirname + "/cache", { recursive: true });
+  }
 
- return request(encodeURI(imgLink)).pipe(fs.createWriteStream(__dirname + "/cache/info.jpg")).on("close", callback);
+  const callback = () => {
+    api.sendMessage(
+      {
+        body: msg,
+        attachment: fs.createReadStream(downloadPath)
+      },
+      threadID,
+      () => {
+        if (fs.existsSync(downloadPath)) {
+          fs.unlinkSync(downloadPath);
+        }
+      }
+    );
+  };
+
+  return request(encodeURI(imgLink))
+    .pipe(fs.createWriteStream(downloadPath))
+    .on("close", callback);
 };
