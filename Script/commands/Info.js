@@ -65,10 +65,10 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
 
  const imgLinks = [
-    "",
-    "",
-    "",
-    ""
+    "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg",
+    "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg",
+    "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg",
+    "https://www.image2url.com/r2/default/images/1787121973694-117e202a-9fd6-49fb-98ae-e221440f6845.jpg"
  ];
 
  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
